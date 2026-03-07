@@ -1,32 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on My New Hugo Project</title>
+    <title>Posts on ayyrixx</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My New Hugo Project</description>
+    <description>Recent content in Posts on ayyrixx</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 07 Mar 2026 21:25:50 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>http://localhost:1313/posts/github/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/github/</guid>
-      <description>&lt;p&gt;404: Not Found&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/github_instalation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/github_instalation/</guid>
-      <description>&lt;p&gt;404: Not Found&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
+      <title>My First Post</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 07 Mar 2026 21:25:50 +0500</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;404: Not Found&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is my first post in a while!!!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

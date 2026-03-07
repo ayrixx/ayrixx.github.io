@@ -1,10 +1,89 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Project'
-
+baseURL = "https://ayrixx.github.io/"
+languageCode = "en-us"
+title = "ayyrixx"
 theme = "hugo-PaperMod"
 
 [params]
-author = "aliyan"
+author = "Aliyan"
+description = "AI • Linux • Open Source Journey"
 
+defaultTheme = "dark"          # dark theme for sleek AI portfolio
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowToc = true
 
+# ===================
+# Profile / Homepage
+# ===================
+[params.profileMode]
+enabled = true
+title = "Aliyan"
+subtitle = "Building in AI • Exploring Arch Linux • Sharing Knowledge"
+
+imageUrl = "ayyrixx.jpg"
+imageWidth = 180
+imageHeight = 180
+imageTitle = "Aliyan Abdullah"
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Projects"
+url = "https://github.com/ayyrixx"
+
+[[params.profileMode.buttons]]
+name = "About"
+url = "/about/"
+
+# ===================
+# Custom CSS
+# ===================
+[params.assets]
+customCSS = ["css/custom.css"]  # your AI-portfolio CSS
+
+# ===================
+# Social Icons
+# ===================
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/ayyrixx"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/ayyrixx"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:p250079@pwr.nu.edu.pk"
+
+# ===================
+# Main Menu
+# ===================
+[menu]
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+name = "Projects"
+url = "https://github.com/ayyrixx"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 4

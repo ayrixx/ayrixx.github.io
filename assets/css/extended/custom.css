@@ -1,0 +1,251 @@
+/* =========================
+   THEME-AWARE GLOBAL STYLES
+========================= */
+
+/* DARK MODE */
+html[data-theme="dark"] body {
+  color: #ffffff;
+  background: #121212;
+}
+
+/* LIGHT MODE */
+html[data-theme="light"] body {
+  color: #121212;
+  background: #f5f5f5;
+}
+
+/* Smooth transitions for elements */
+* {
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* =========================
+   GLASSMORPHIC CARDS / SECTIONS
+========================= */
+.section-box, .post-card, .project-card {
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+  transition: all 0.3s ease;
+}
+
+/* DARK MODE CARDS */
+html[data-theme="dark"] .section-box,
+html[data-theme="dark"] .post-card,
+html[data-theme="dark"] .project-card {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+}
+
+/* LIGHT MODE CARDS */
+html[data-theme="light"] .section-box,
+html[data-theme="light"] .post-card,
+html[data-theme="light"] .project-card {
+  background: rgba(255, 255, 255, 0.9);
+  color: #121212;
+}
+
+/* Hover lift effect */
+.section-box:hover,
+.post-card:hover,
+.project-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 16px 60px rgba(0, 0, 0, 0.45);
+}
+
+/* =========================
+   HEADERS & TITLES
+========================= */
+h1, h2, h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  background: linear-gradient(90deg, #00f0ff, #ff61e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* =========================
+   TAGS / METADATA
+========================= */
+.terms-tags a, .post-tags a {
+  padding: 6px 16px;
+  border-radius: 30px;
+  margin: 4px;
+  display: inline-block;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+html[data-theme="dark"] .terms-tags a,
+html[data-theme="dark"] .post-tags a {
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+
+html[data-theme="light"] .terms-tags a,
+html[data-theme="light"] .post-tags a {
+  background: rgba(0, 0, 0, 0.05);
+  color: #121212;
+}
+
+.terms-tags a:hover, .post-tags a:hover {
+  transform: scale(1.05);
+}
+
+/* =========================
+   LINKS & BUTTONS
+========================= */
+a, .btn {
+  font-weight: 600;
+  position: relative;
+}
+
+html[data-theme="dark"] a, html[data-theme="dark"] .btn {
+  color: #00f0ff;
+}
+
+html[data-theme="light"] a, html[data-theme="light"] .btn {
+  color: #0066cc;
+}
+
+a::after, .btn::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background: currentColor;
+  transition: width 0.3s ease;
+}
+
+a:hover::after, .btn:hover::after {
+  width: 100%;
+}
+
+/* Gradient Buttons */
+.btn-gradient {
+  padding: 12px 28px;
+  border-radius: 25px;
+  color: #fff;
+  display: inline-block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(135deg, #00f0ff, #ff61e0);
+}
+
+.btn-gradient:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 240, 255, 0.5);
+}
+
+/* =========================
+   SKILL BADGES
+========================= */
+.skill-badge {
+  display: inline-block;
+  padding: 8px 18px;
+  margin: 4px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(135deg, #00f0ff, #ff61e0);
+  color: #fff;
+}
+
+.skill-badge:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 240, 255, 0.4);
+}
+
+/* =========================
+   PROJECT CARDS
+========================= */
+.project-card h3 {
+  font-size: 1.5rem;
+  background: linear-gradient(90deg, #00f0ff, #ff61e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project-card p {
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
+
+/* =========================
+   FLOATING SOCIAL LINKS
+========================= */
+.social-links {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 999;
+}
+
+.social-links a {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.social-links a:hover {
+  transform: scale(1.15);
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* =========================
+   FADE-IN ANIMATION
+========================= */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease-out;
+}
+
+.fade-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* =========================
+   RESPONSIVE ADJUSTMENTS
+========================= */
+@media screen and (max-width: 768px) {
+  .section-box, .post-card, .project-card {
+    padding: 20px;
+  }
+
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.2rem; }
+}

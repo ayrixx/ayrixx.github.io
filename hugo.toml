@@ -28,7 +28,7 @@ subtitle = "Building in AI • Exploring Arch Linux • Sharing Knowledge"
 imageUrl = "ayyrixx.jpg"
 imageWidth = 180
 imageHeight = 180
-imageTitle = "Aliyan Abdullah"
+imageTitle = "Aliyan Niazi"
 
 [[params.profileMode.buttons]]
 name = "Blog"

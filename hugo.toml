@@ -1,6 +1,6 @@
 baseURL = "https://ayrixx.github.io/"
 languageCode = "en-us"
-title = "ayyrixx"
+title = "ayrixx"
 theme = "hugo-PaperMod"
 
 [params]
@@ -36,7 +36,7 @@ url = "/posts/"
 
 [[params.profileMode.buttons]]
 name = "Projects"
-url = "https://github.com/ayyrixx"
+url = "https://github.com/ayrixx"
 
 [[params.profileMode.buttons]]
 name = "About"
@@ -53,11 +53,11 @@ customCSS = ["css/custom.css"]  # your AI-portfolio CSS
 # ===================
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/ayyrixx"
+url = "https://github.com/ayrixx"
 
 [[params.socialIcons]]
 name = "linkedin"
-url = "https://linkedin.com/in/ayyrixx"
+url = "https://linkedin.com/in/ayrixx"
 
 [[params.socialIcons]]
 name = "email"
@@ -80,7 +80,7 @@ weight = 2
 
 [[menu.main]]
 name = "Projects"
-url = "https://github.com/ayyrixx"
+url = "https://github.com/ayrixx"
 weight = 3
 
 [[menu.main]]

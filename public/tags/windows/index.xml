@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on ayrixx</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on ayrixx</description>
+    <title>Windows on ayrixx</title>
+    <link>http://localhost:1313/tags/windows/</link>
+    <description>Recent content in Windows on ayrixx</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> Guide to Git and GitHub Setup on Arch Linux and Windows</title>
       <link>http://localhost:1313/posts/git/</link>
@@ -30,28 +30,6 @@
 &lt;h3 id=&#34;arch-linux&#34;&gt;Arch Linux&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -Syu git
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Confirm installation:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mastering Hugo on Arch Linux: A Professional Guide</title>
-      <link>http://localhost:1313/posts/hugo/</link>
-      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hugo/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Hugo is a high-performance, open-source static site generator (SSG) built in Go. Designed for speed, security, and flexibility, Hugo is ideal for creating blogs, documentation sites, and personal portfolios. Unlike traditional CMS platforms, Hugo produces static HTML files, eliminating the need for a database and enhancing site performance.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;key-advantages-of-hugo&#34;&gt;Key Advantages of Hugo&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Exceptional Speed&lt;/strong&gt; – Generates websites in milliseconds.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;User-Friendly Content Management&lt;/strong&gt; – Write in Markdown for simplicity and portability.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Highly Customizable&lt;/strong&gt; – Supports themes, templates, and shortcodes.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Enhanced Security&lt;/strong&gt; – Static files mean fewer vulnerabilities.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;SEO Optimization&lt;/strong&gt; – Static HTML ensures fast-loading, search-friendly sites.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cross-Platform Portability&lt;/strong&gt; – Host anywhere: GitHub Pages, Netlify, or traditional web servers.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;step-by-step-hugo-setup&#34;&gt;Step-by-Step Hugo Setup&lt;/h2&gt;
-&lt;h3 id=&#34;installing-hugo&#34;&gt;Installing Hugo&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Arch Linux / Manjaro:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

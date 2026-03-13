@@ -4,7 +4,6 @@ date: 2026-03-13
 tags: ["Hugo", "Static Site Generator", "Arch Linux", "PaperMod", "GitHub Pages"]
 draft: false
 ---
-# Mastering Hugo on Arch Linux: A Professional Guide
 
 ## Overview
 

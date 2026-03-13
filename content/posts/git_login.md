@@ -1,7 +1,7 @@
 ---
 
 title: "GitHub CLI One-Time Login on Linux"
-date: 2026-03-14
+date: 2026-03-11
 tags: ["GitHub", "CLI", "Linux", "Authentication"]
 draft: false
 ------------

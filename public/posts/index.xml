@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on ayrixx</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://ayrixx.github.io/posts/</link>
     <description>Recent content in Posts on ayrixx</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ayrixx.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> Guide to Git and GitHub Setup on Arch Linux and Windows</title>
-      <link>http://localhost:1313/posts/git/</link>
+      <link>https://ayrixx.github.io/posts/git/</link>
       <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/git/</guid>
+      <guid>https://ayrixx.github.io/posts/git/</guid>
       <description>&lt;hr&gt;
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Git is the industry-standard distributed version control system, enabling developers to efficiently track code changes, collaborate seamlessly, and maintain project history. GitHub, as a cloud-based repository hosting service, enhances collaboration through pull requests, code reviews, and advanced project management tools. This professional guide provides a step-by-step workflow for setting up Git and GitHub on &lt;strong&gt;Arch Linux&lt;/strong&gt; and &lt;strong&gt;Windows&lt;/strong&gt;, optimized for both individual and enterprise development environments.&lt;/p&gt;
@@ -33,9 +33,9 @@
     </item>
     <item>
       <title>Mastering Hugo on Arch Linux: A Professional Guide</title>
-      <link>http://localhost:1313/posts/hugo/</link>
+      <link>https://ayrixx.github.io/posts/hugo/</link>
       <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hugo/</guid>
+      <guid>https://ayrixx.github.io/posts/hugo/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Hugo is a high-performance, open-source static site generator (SSG) built in Go. Designed for speed, security, and flexibility, Hugo is ideal for creating blogs, documentation sites, and personal portfolios. Unlike traditional CMS platforms, Hugo produces static HTML files, eliminating the need for a database and enhancing site performance.&lt;/p&gt;
 &lt;hr&gt;

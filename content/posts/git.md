@@ -1,6 +1,6 @@
 ---
 title: " Guide to Git and GitHub Setup on Arch Linux and Windows"
-date: 2026-03-13
+date: 2026-03-12
 tags: ["Git", "GitHub", "Arch Linux", "Windows", "Version Control", "Professional Setup"]
 draft: false
 ------------
